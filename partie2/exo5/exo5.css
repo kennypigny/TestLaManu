@@ -1,0 +1,22 @@
+table{
+    border-collapse: collapse;
+    font-weight: 500;
+    margin: 5em;
+}
+caption{font-weight: bold;}
+th,
+td {
+  padding: 1em;  
+  border: 1px solid black;
+}
+.center{
+    text-align: center;
+}
+.green{
+    color: green;
+}
+.red{
+    color: red;
+}
+
+

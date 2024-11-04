@@ -1,0 +1,15 @@
+p{
+    background-color: yellow;
+}
+div{
+    background-color: aqua;
+}
+.pone{
+    background-color: orange;
+}
+.ptwo{
+    margin: 40px;
+}
+.pthree{
+    padding: 40px;
+}

@@ -1,0 +1,18 @@
+p{
+    background-color: aqua;
+    font-size: small;
+}
+@media screen and (min-width: 426px) and (max-width: 768px){
+    p{
+        background-color: green;
+        font-size: medium;
+    }
+    
+}
+@media screen and (max-width: 425px){
+    p{
+        background-color: yellow;
+        font-size: large;
+    }
+    
+}

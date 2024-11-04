@@ -1,0 +1,70 @@
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.container>div:nth-child(1){
+    width: 75%;
+    height: 16%;
+    background-color: green;
+    
+}
+.container>div:nth-child(2){
+    width: 25%;
+    height: 16%;
+    background-color: blue;
+
+}
+.container>div:nth-child(3){
+    width: 34% ;
+    height: 34%;
+    background-color: crimson;
+
+}
+
+
+.subContainer{
+    width: 66%;
+    height: 34%;
+    display: flex;
+    flex-wrap: wrap;    
+}
+
+.subContainer>div:nth-child(1){
+    width: 50%;
+    height: 50%;
+    background-color: orange;
+
+}
+.subContainer>div:nth-child(2){
+    width: 50%;
+    height: 50%;
+    background-color: grey;
+
+}
+.subContainer>div:nth-child(3){
+    width: 33%;
+    height: 50%;
+    background-color: cyan;
+
+}
+.subContainer>div:nth-child(4){
+    width: 33%;
+    height: 50%;
+    background-color: rgb(145, 255, 0);
+
+}
+.subContainer>div:nth-child(5){
+    width: 33%;
+    height: 50%;
+    background-color: rgb(255, 0, 115);
+
+}
+.lastContainer{
+    width: 100%;
+    height: 50%;
+    background: #444;
+}

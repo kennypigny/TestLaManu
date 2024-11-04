@@ -1,0 +1,13 @@
+img {
+    width : 14em;
+    height: 10em;
+    border-radius: 10%; 
+    box-shadow: 2px 15px 40px;
+}
+a{
+    text-decoration: none;   
+}
+a:hover{
+    text-decoration: underline;
+
+}

@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+nav{
+
+    width: 100vw;
+    height: 8vh;
+    background-color: red;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+   
+}
+.burger-menu-img{
+    width: 3em; 
+    height: 2em;
+
+}
+.burger-menu{
+    
+    display: none;
+    
+    
+}
+
+@media screen and (max-width:768px){
+    .burger-menu{
+         display: initial ;
+         margin-right: auto;
+     }
+    a{
+        display: none;
+    }
+
+    
+}

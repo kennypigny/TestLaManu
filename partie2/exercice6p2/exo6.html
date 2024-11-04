@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exo6</title>
+    <link rel="stylesheet" href="exo6.css" />
+  </head>
+  <body>
+    <form action="" method="">
+      <fieldset class="first">
+        <legend class="first">Votre identité</legend>
+        <ol>
+          <li>
+            <label for="nom">Nom :</label>
+            <input id="nom" type="text" name="nom" placeholder="Nom" />
+          </li>
+          <li>
+            <label for="prenom">Prénom :</label>
+            <input id="prenom" type="text" name="prenom" placeholder="Prénom" />
+          </li>
+          <li>
+            <label for="email">Adresse mail :</label>
+            <input id="email"  name="email" type="email" placeholder="Adresse mail" />
+          </li>
+        </ol>
+      </fieldset>
+      <fieldset class="second">
+        <legend class="second">Adresse de livraison</legend>
+        <ol>
+          <li>
+            <label for="adresse">Adresse :</label>
+            <textarea
+              cols="30"
+              rows="5"
+              id="adresse"
+              name="adresse"
+              placeholder="  82 rue Florimond Laurent"
+            ></textarea>
+          </li>
+          <li>
+            <label for="code-postal">Code Postal :</label>
+            <input id="code-postal" name="code-postal" type="text" placeholder="Code postal" />
+          </li>
+          <li>
+            <label for="ville">Ville :</label>
+            <input id="ville" name="ville" type="text" placeholder="Ville" />
+          </li>
+        </ol>
+      </fieldset>
+      <fieldset class="third">
+        <legend class="third">Information de règlement</legend>
+        <ol>
+          <li>
+            <p>Type de carte bancaire</p>
+            <div>
+              <input type="radio" name="cards" value="visa" checked />
+              <label for="visa">Visa</label>
+            </div>
+            <div>
+              <input type="radio" name="cards" value="mastercard" />
+              <label for="mastercard">Mastercard</label>
+            </div>
+          </li>
+          <li>
+            <label for="number-card">Numéro de carte</label>
+            <input type="text" id="numbercard" name="number-card" placeholder="Numéro de carte" />
+          </li>
+          <li>
+            <label for="nom-carte">Nom du titulaire :</label>
+            <input type="text" id="nom-carte" name="nom-carte" placeholder="Nom du titulaire" />
+          </li>
+        </ol>
+      </fieldset>
+      <button>J'achete!</button>
+    </form>
+  </body>
+</html>

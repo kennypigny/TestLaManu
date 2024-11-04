@@ -1,0 +1,22 @@
+input,
+textarea{  
+    background-color: #f5d2cc ;
+    border: solid 2px rgb(123, 182, 34);    
+    border-radius: 5px;
+}
+.first{
+    background-color: #92dce5;
+}
+.second
+{
+    background-color: #427aa1 ;
+}
+.third{ 
+    background-color: #05668d;
+}
+button{
+    border: solid 2px red;
+    border-radius: 5px;
+    background-color: #a5be00;
+    padding: 5px;
+}

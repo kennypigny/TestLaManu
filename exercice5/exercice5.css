@@ -1,0 +1,36 @@
+body {
+  background-color: #faf2f2;
+}
+h1 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+}
+h2 {
+  text-align: center;
+  margin: 3em auto;
+}
+p {
+  text-align: center;
+  margin: 2em auto;
+}
+div > p {
+  margin: 1em 3em;
+  text-align: left;
+  font-size: 0.5em;
+}
+.ville {
+  width: 15em;
+  height: 10em;
+  display: block;
+  margin: auto;
+}
+.activite {
+  width: 20em;
+  height: 15em;
+  display: block;
+  margin: auto;
+}
+.img-header {
+  width: 100%;
+  height: auto;
+}
